@@ -1,0 +1,189 @@
+.sidenav-trigger{
+    cursor: pointer!important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+.headerCollapseDeliver{
+    pointer-events: none !important;
+}
+.bold{
+    font-weight: bold;
+}
+
+.text-capitalize{
+    text-transform: capitalize !important;
+}
+
+.w-100{
+    width: 100%!important;
+}
+
+/*Margin right*/
+.mr-1{
+    margin-right: 1rem;
+}
+
+/*Margin left*/
+.ml-1{
+    margin-left: 1rem;
+}
+
+/*Margin  Bottom*/
+.mb-1{
+    margin-bottom: 1rem;
+}
+
+/*Margin top*/
+.mt-1{
+    margin-top: 1rem;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+.productDetail .titleProduct{
+    font-size: 18px;
+}
+
+.productDetail .price{
+    font-size: 20px;
+}
+
+.productDetail .description label{
+    font-size: 16px !important;
+}
+
+.productDetail img.responsive-img{
+    max-width: 80%;
+    height: auto;
+}
+
+.productDetail .buttonsProducts{
+    font-size: 25px !important;
+}
+
+
+/*Login */
+.login .card-title{
+    font-weight: bold !important;
+}
+
+.login .formInicioSesion{
+    min-height: 400px;
+}
+
+.login .formInicioSesionRedes{
+    height: 400px;
+}
+
+.login .imgIcon{
+    max-width: 35px !important;
+}
+
+.labelPrice{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.profile .collapsible .active .collapsible-header{
+    background-color: #f57f17;
+    color: white;
+}
+
+
+.itemsCart .emptyCart{
+    min-height: 400px;
+}
+
+.itemsCart .infoItem{
+    min-height: 50px ;
+}
+
+.itemsCart .infoItem .responsive-img{
+    max-height: 7rem !important;
+}
+
+.itemsCart .subtotal{
+    font-size: 20px;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.itemsCart .btnContinuar{
+    padding-top: 10px;
+    min-height: 60px;
+    font-size: 20px;
+    min-width: 30%;
+    text-transform: initial !important;
+}
+
+.productos .btn{
+    text-transform: initial !important;
+}
+
+#modalConfirm img{
+    max-width: 100px;
+}
+
+.imgListProduct{
+    max-width: 150px;
+}
+
+#dropCategories {
+    min-width: 400px;
+}
+
+.deliverAdress{
+    border: solid 0.5px;
+    border-radius: 10px;
+}
+
+.deliverAdress p{
+    margin-bottom: 0px !important;
+    margin-top: 0px;
+}
+
+.centerContent{
+    min-height: 400px !important;
+}
+
+
+/*MEDIAS*/
+
+@media (max-width: 600px) {
+    .container {
+        width: 100% !important;
+    }
+
+    .itemsCart{
+        width: 100% !important;
+    }
+  }
+
+
+
+@media (min-width: 992px) {
+    .login .formInicioSesion {
+        border-right: 1px solid;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .login .formInicioSesionRedes{
+        height: auto !important;
+    }
+  }
+
+/*Colores APP*/
+
+ /* label focus color */
+ .input-field input:focus + label {
+    color: #f57f17 !important;
+}
+/* label underline focus color */
+.input-field input:focus {
+    border-bottom: 1px solid #f57f17 !important;
+    box-shadow: 0 1px 0 0 #f57f17 !important;
+}
